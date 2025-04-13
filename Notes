@@ -1,0 +1,51 @@
+Todo list React JS Project
+
+JSX-- Javascript Syntax Extension
+--JSX use to insert JS dynamically with html
+
+--index.js  -entry point of js
+
+App.js --main component
+
+Components in React 
+1. class based
+2. function based
+
+**
+Adding Bootstrap in React-
+-add cdn in app/index.html
+
+Creating Components
+-make a folder e.g - src/MyComponents
+-component's name should be start with capital letter. e.g : Header.js
+
+How to include components in App.js?
+e.g :  <Header></Header>
+e.g : 
+
+Props in react :
+//default proptypes -- if you not provide any props it will display default props
+Header.defaultProps = {
+    title: "Your Title Here"
+} ---in header.js
+
+//proptypes --
+Header.propTypes = {        
+    title: PropTypes.string
+}
+
+How to add style? in react
+    let footerStyle = {
+        position: "absolute",
+        top: "100vh",
+        width: "100%"
+    }
+    <header style={footerStyle}>
+    //you can pass variable like this
+
+
+
+//use of local storage :
+
+
+//react router
